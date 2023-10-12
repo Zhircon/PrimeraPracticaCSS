@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+li{
+   float:left;
+}
+ul {
+    list-style: none;
+}
+#container{
+    width: 80%;
+}
+/*Proporciona Color a los fondos de las clases*/
+.article{
+    border: solid;
+    border-top: black;
+}
+.content {
+    background-color: green;
+    min-height: 500px;
+    width: calc(70% - 33px);
+    float:left;
+    color:white;
+    padding: 13px;
+    
+}
+.aside{
+    border: solid;
+    border-color: black;
+    background-color: orange;
+    width: 30%;
+    min-height: 500px;
+    float:right;
+    padding: 12px;
+}
+.header{
+    background-color: red;
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: center;
+    color:white;
+}
+li{
+    display: inline;
+}
+#busqueda{
+    width: 100%;
+    display: inline;
+}
+.nav{
+    background-color: lightblue;
+    vertical-align: middle;
+    border: dotted;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 3px;
+    height: 50px;
+}
+.clearfix{
+    clear:both;
+}
+.footer{
+    vertical-align: middle;
+    text-align: center;
+    
+    background-color: black;
+    color:white;
+    height: 50px;
+}
